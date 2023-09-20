@@ -1,4 +1,7 @@
 # Projeto CheckInn - Sistema de Gestão Hoteleira
+<p align="center">
+  <img src="https://github.com/joojkafer/ProjetoMensal/assets/83623617/bbd9d8a6-148b-4f5a-b9bd-3089d415dcd4" alt="logo">
+</p>
 
 ## Visão Geral
 
