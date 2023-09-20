@@ -39,7 +39,8 @@ Contribuições para melhorar e aprimorar este sistema são bem-vindas. Sinta-se
 
 ## Licença
 
-Este projeto está licenciado sob a Licença Descomplica Uniamerica- consulte o arquivo [LICENSE](LICENSE) para obter detalhes.
+Este projeto está licenciado sob a Licença Descomplica Uniamerica - consulte o arquivo [LICENSE](LICENSE.pdf) para obter detalhes.
+
 
 ---
 Desenvolvido por [Guilherme Vale](https://github.com/guiiivale) e [João Kafer](https://github.com/joojkafer)
