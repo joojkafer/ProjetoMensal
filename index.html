@@ -4,6 +4,10 @@
         <script src="/ProjetoMensal/js/include.js"></script>
         <title>CheckInn - Login</title>
         <div w3-include-html="/ProjetoMensal/head.html"></div>
+
+        <link rel="stylesheet" href="../lib/w3.css">
+        <script src="https://www.w3schools.com/lib/w3.js"></script>
+
     </head>
 
 <body>
@@ -20,32 +24,26 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <button type="button" class="d-block w-100 mx-auto" style="border: none;">
-                        <img src="img/single.jpg" class="d-block w-100 mx-auto carrosselimg" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h1> <b> Single </b> </h1>
-                            <h5>Single.</h5>
-                        </div>
-                    </button>
+                    <img src="img/single.jpg" class="d-block w-100 mx-auto carrosselimg" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1> <b> Single </b> </h1>
+                        <h5>Single.</h5>
+                    </div>
                 </div>
                 <div class="carousel-item">
-                    <button type="button" class="d-block w-100 mx-auto" style="border: none;">
-                        <img src="img/double.jpg" class="d-block w-100 mx-auto carrosselimg" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h1> <b> Double </b> </h1>
-                            <h5>Double.</h5>
-                        </div>
-                    </button>
+                    <img src="img/double.jpg" class="d-block w-100 mx-auto carrosselimg" alt="...">
+                     <div class="carousel-caption d-none d-md-block">
+                        <h1> <b> Double </b> </h1>
+                        <h5>Double.</h5>
+                    </div>
                 </div>
                 
                 <div class="carousel-item">
-                    <button type="button" class="d-block w-100 mx-auto" style="border: none;">
-                        <img src="img/triple.jpg" class="d-block w-100 mx-auto carrosselimg" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h1> <b> Triple </b> </h1>
-                            <h5>Triple.</h5>
-                        </div>
-                    </button>
+                    <img src="img/triple.jpg" class="d-block w-100 mx-auto carrosselimg" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1> <b> Triple </b> </h1>
+                        <h5>Triple.</h5>
+                    </div>
                 </div>
             </div>
                     
@@ -60,11 +58,31 @@
         </div>
     </div>
 
-    <div class="modal">
-        <div class="modalcontents">
-            <h1> Faça sua reserva! </h1>
-        </div>
+    <div class="row mx-auto" style="width: 30%; margin: 2%;">
+        <button type="button" class="btn btn-primary d-flex justify-content-center mx-auto" data-bs-toggle="modal" data-bs-target="#exampleModal" style="padding: 1.1%">
+            Reservar quartos!
+        </button>
     </div>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Reservar quarto</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+              <button type="button" class="btn btn-primary">Reservar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
