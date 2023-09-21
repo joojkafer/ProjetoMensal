@@ -46,4 +46,4 @@ Este projeto está licenciado sob a Licença Descomplica Uniamerica - consulte o
 
 
 ---
-Desenvolvido por [Guilherme Vale](https://github.com/guiiivale) e [João Kafer](https://github.com/joojkafer)
+Desenvolvido por [Guilherme Vale](https://github.com/guiiivale), [João Kafer](https://github.com/joojkafer) e [Julio Womer](https://github.com/JulioWomer).
