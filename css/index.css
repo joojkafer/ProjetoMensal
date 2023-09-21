@@ -1,12 +1,18 @@
-body{
-    background-image: url('../img/bgimg.jpg'); 
-    background-repeat: no-repeat; 
-    background-attachment: fixed; 
-    background-size: 100% 100%;
+html, body {
+    overflow-x: hidden;
 }
 
-h1{
-    font-family: "Lucida Console", "Courier New", monospace;
+body {
+    background: url('../img/bgimg.jpg');
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-size: cover;
+    backdrop-filter: blur(8px);
+    justify-content: center;
+    font-family: 'Monsterrat', sans-serif;
+    position: relative;
+    padding: 2rem 0;
 }
 
 h2{
@@ -57,3 +63,9 @@ h2{
     margin-top: 2%;
 }
 
+.landing{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    color: black;
+}
