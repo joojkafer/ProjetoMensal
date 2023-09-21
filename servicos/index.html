@@ -5,14 +5,14 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Produtos - Index</title>
+    <title>Serviço de limpeza - Index</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="/ProjetoMensal/produtos/css/index.css">
+    <link rel="stylesheet" type="text/css" href="/ProjetoMensal/servicos/css/index.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="/ProjetoMensal/js/include.js"></script>
-    <script src="/ProjetoMensal/produtos/js/index.js"></script>
+    <script src="/ProjetoMensal/servicos/js/index.js"></script>
     <div w3-include-html="/ProjetoMensal/head.html"></div>
 </head>
 
@@ -25,14 +25,14 @@
                 <div class="table-title">
                     <div class="row">
                         <div class="col-sm-6 d-flex">
-                            <h2>Gerenciar <b>Produtos</b></h2>
+                            <h2>Gerenciar <b>Quartos</b></h2>
                         </div>
                         <div class="col-sm-6">
                             <a href="#addEmployeeModal" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#addEmployeeModal">
-                                <i class="material-icons">&#xE147;</i> <span>Adicionar novo produto</span>
+                                <i class="material-icons">&#xE147;</i> <span>Adicionar novo quarto</span>
                             </a>
-                            <a href="#deleteEmployeeModal" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#deleteEmployeeModal">
-                                <i class="material-icons">&#xE15C;</i> <span>Deletar</span>
+                            <a href="#cleanModal" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cleanModal">
+                                <i  class="material-icons cleaning_services">&#xf0ff;</i> <span>Limpar</span>
                             </a>
                             
                         </div>
@@ -47,9 +47,9 @@
                                     <label for="selectAll"></label>
                                 </span>
                             </th>
-                            <th>Codigo</th>
-                            <th>Nome</th>
-                            <th>Estoque</th>
+                            <th>Num. quarto</th>
+                            <th>Ultima limpeza</th>
+                            <th>Hospedado?</th>
                             <th>Tipo</th>
                             <th>Ações</th>
                         </tr>
@@ -62,12 +62,12 @@
                                     <label for="checkbox1"></label>
                                 </span>
                             </td>
-                            <td>01</td>
-                            <td>Sabonete</td>
-                            <td>222</td>
-                            <td>Higiene</td>
+                            <td>Quarto 01</td>
+                            <td>21/09/2023 12:20:23</td>
+                            <td>Sim</td>
+                            <td>Double</td>
                             <td>
-                                <a href="#editEmployeeModal" class="edit" data-bs-toggle="modal" data-bs-target="#addEmployeeModal">
+                                <a href="#editEmployeeModal" class="edit" data-bs-toggle="modal" data-bs-target="#editEmployeeModal">
                                     <i class="material-icons"
                                         data-toggle="tooltip" title="Edit">&#xE254;</i>
                                 </a>
@@ -84,12 +84,12 @@
                                     <label for="checkbox2"></label>
                                 </span>
                             </td>
-                            <td>02</td>
-                            <td>Sabão em pó</td>
-                            <td>300</td>
-                            <td>Higiene</td>
+                            <td>Quarto 02</td>
+                            <td>20/09/2023 12:20:23</td>
+                            <td>Sim</td>
+                            <td>Single</td>
                             <td>
-                                <a href="#editEmployeeModal" class="edit" data-bs-toggle="modal" data-bs-target="#addEmployeeModal">
+                                <a href="#editEmployeeModal" class="edit" data-bs-toggle="modal" data-bs-target="#editEmployeeModal">
                                     <i class="material-icons"
                                         data-toggle="tooltip" title="Edit">&#xE254;</i>
                                 </a>
@@ -106,12 +106,12 @@
                                     <label for="checkbox3"></label>
                                 </span>
                             </td>
-                            <td>03</td>
-                            <td>Toalha</td>
-                            <td>111</td>
-                            <td>Higiene</td>
+                            <td>Quarto 03</td>
+                            <td>22/09/2023 12:20:23</td>
+                            <td>Sim</td>
+                            <td>Triple</td>
                             <td>
-                                <a href="#editEmployeeModal" class="edit" data-bs-toggle="modal" data-bs-target="#addEmployeeModal">
+                                <a href="#editEmployeeModal" class="edit" data-bs-toggle="modal" data-bs-target="#editEmployeeModal">
                                     <i class="material-icons"
                                         data-toggle="tooltip" title="Edit">&#xE254;</i>
                                 </a>
@@ -128,12 +128,12 @@
                                     <label for="checkbox4"></label>
                                 </span>
                             </td>
-                            <td>04</td>
-                            <td>Condicionador</td>
-                            <td>300</td>
-                            <td>Higiene</td>
+                            <td>Quarto 04</td>
+                            <td>11/09/2023 12:20:23</td>
+                            <td>Não</td>
+                            <td>Triple</td>
                             <td>
-                                <a href="#editEmployeeModal" class="edit" data-bs-toggle="modal" data-bs-target="#addEmployeeModal">
+                                <a href="#editEmployeeModal" class="edit" data-bs-toggle="modal" data-bs-target="#editEmployeeModal">
                                     <i class="material-icons"
                                         data-toggle="tooltip" title="Edit">&#xE254;</i>
                                 </a>
@@ -150,12 +150,12 @@
                                     <label for="checkbox5"></label>
                                 </span>
                             </td>
-                            <td>05</td>
-                            <td>Shampoo</td>
-                            <td>200</td>
-                            <td>Higiene</td>
+                            <td>Quarto 05</td>
+                            <td>11/10/2023 12:30:23</td>
+                            <td>Sim</td>
+                            <td>Single</td>
                             <td>
-                                <a href="#editEmployeeModal" class="edit" data-bs-toggle="modal" data-bs-target="#addEmployeeModal">
+                                <a href="#editEmployeeModal" class="edit" data-bs-toggle="modal" data-bs-target="#editEmployeeModal">
                                     <i class="material-icons"
                                         data-toggle="tooltip" title="Edit">&#xE254;</i>
                                 </a>
@@ -182,31 +182,42 @@
             </div>
         </div>
         <!-- Edit Modal HTML -->
-        <div id="addEmployeeModal" class="modal fade">
+        <div id="editEmployeeModal" class="modal fade">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <form>
                         <div class="modal-header">
-                            <h4 class="modal-title">Adicionar produto</h4>
+                            <h4 class="modal-title">Editar quarto #</h4>
                             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                         </div>
                         <div class="modal-body">
                             <div class="form-group">
-                                <label>Cod. Produto</label>
+                                <label>Num. quarto</label>
                                 <input type="text" class="form-control" required>
                             </div>
+                            
                             <div class="form-group">
-                                <label>Nome</label>
-                                <input type="text" class="form-control" required>
+                                <label>Ultima Limpeza</label>
+                                <input type="datetime-local" class="form-control" required>
                             </div>
+                            
                             <div class="form-group">
-                                <label>Estoque</label>
-                                <input type="integer" class="form-control" required>
+                                <label>Hospedado?</label>
+                                <select class="form-control" required>
+                                    <option value="sim">Sim</option>
+                                    <option value="nao">Não</option>
+                                </select>
                             </div>
+                            
                             <div class="form-group">
                                 <label>Tipo</label>
-                                <input type="text" class="form-control" required>
+                                <select class="form-control" required>
+                                    <option value="single">Single</option>
+                                    <option value="double">Double</option>
+                                    <option value="triple">Triple</option>
+                                </select>
                             </div>
+                            
                         </div>
                         <div class="modal-footer">
                             <input type="button" class="btn btn-default" data-bs-dismiss="modal" value="Cancelar">
@@ -222,30 +233,41 @@
                 <div class="modal-content">
                     <form>
                         <div class="modal-header">
-                            <h4 class="modal-title">Editar Produto</h4>
+                            <h4 class="modal-title">Adicionar quartos</h4>
                             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                         </div>
                         <div class="modal-body">
                             <div class="form-group">
-                                <label>Cod. Produto</label>
+                                <label>Num. quarto</label>
                                 <input type="text" class="form-control" required>
                             </div>
+                            
                             <div class="form-group">
-                                <label>Nome</label>
-                                <input type="text" class="form-control" required>
+                                <label>Ultima Limpeza</label>
+                                <input type="datetime-local" class="form-control" required>
                             </div>
+                            
                             <div class="form-group">
-                                <label>Estoque</label>
-                                <input type="integer" class="form-control" required>
+                                <label>Hospedado?</label>
+                                <select class="form-control" required>
+                                    <option value="sim">Sim</option>
+                                    <option value="nao">Não</option>
+                                </select>
                             </div>
+                            
                             <div class="form-group">
                                 <label>Tipo</label>
-                                <input type="text" class="form-control" required>
+                                <select class="form-control" required>
+                                    <option value="single">Single</option>
+                                    <option value="double">Double</option>
+                                    <option value="triple">Triple</option>
+                                </select>
                             </div>
+                            
                         </div>
                         <div class="modal-footer">
                             <input type="button" class="btn btn-default" data-bs-dismiss="modal" value="Cancelar">
-                            <input type="submit" class="btn btn-info" value="Save">
+                            <input type="submit" class="btn btn-success" value="Add">
                         </div>
                     </form>
                 </div>
@@ -257,7 +279,7 @@
                 <div class="modal-content">
                     <form>
                         <div class="modal-header">
-                            <h4 class="modal-title">Deletar produto</h4>
+                            <h4 class="modal-title">Deletar quarto</h4>
                             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                         </div>
                         <div class="modal-body">
@@ -267,6 +289,26 @@
                         <div class="modal-footer">
                             <input type="button" class="btn btn-default" data-bs-dismiss="modal" value="Cancelar">
                             <input type="submit" class="btn btn-danger" value="Delete">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- Clean Modal HTML -->
+        <div id="cleanModal" class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <form>
+                        <div class="modal-header">
+                            <h4 class="modal-title">Limpar quarto?</h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            <p class="text-warning"><small>A data de limpeza do quarto será marcada com o horário atual.</small></p>
+                        </div>
+                        <div class="modal-footer">
+                            <input type="button" class="btn btn-default" data-bs-dismiss="modal" value="Cancelar">
+                            <input type="submit" class="btn btn-success" value="Limpar">
                         </div>
                     </form>
                 </div>
