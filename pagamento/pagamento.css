@@ -14,7 +14,7 @@
     background-size: cover;
     backdrop-filter: blur(8px);
     color: #46d6e9;
-  
+    overflow-x: hidden;
     display: flex;
     justify-content: center;
     height: 100vh;
@@ -23,6 +23,15 @@
     padding: 2rem 0;
   }
   
+  .bd-container{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
   .checkout-container {
     /* background-color: red; */
     max-width: 120rem;
@@ -60,7 +69,7 @@
   }
   
   /* Left container text */
-  
+  asd 
   .home-heading {
     color: #e8e8e1;
     font-size: 3.2rem;
