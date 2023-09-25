@@ -20,6 +20,11 @@ h2{
     padding-bottom: 4%;
 }
 
+.txtreserva{
+    margin: 0px;
+    padding: 0px;
+}
+
 .hrefpadrao{
     color: black;
     text-decoration: none;
