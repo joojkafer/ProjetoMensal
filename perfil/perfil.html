@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CheckInn - Meu Perfil</title>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="perfil/perfil.css">
+    </head>
+
+    <body style="background: url('/ProjetoMensal/img/bgimg.jpg');">
+
+        <div class="content">
+            <nav class="navbar fixed-top"
+                style="padding: 1.2%; background-color: rgb(101, 193, 251);">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"> <img
+                            src="/ProjetoMensal/img/logo.png"
+                            style="width: 150px; height: 75px;"> </a>
+                    <button class="navbar-toggler" type="button"
+                        data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar"
+                        aria-controls="offcanvasNavbar"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1"
+                        id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <img src="/ProjetoMensal/img/logo.png"
+                                style="width: 140px; height: 75px;">
+                            <button type="button" class="btn-close"
+                                data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul
+                                class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <li><a class="dropdown-item"
+                                            href="perfil/perfil.html">Meu perfil</a></li>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#"
+                                        role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Mais
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item"
+                                                href="/ProjetoMensal/login/login.html">Estoque</a></li>
+                                        <li><a class="dropdown-item"
+                                                href="/ProjetoMensal/login/registrar.html">Quartos</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <section class="h-100 gradient-custom-2" style="margin-top: 8%;">
+                <div class="container py-5 h-100">
+                    <div
+                        class="row d-flex justify-content-center align-items-center h-100">
+                        <div class="col col-lg-9 col-xl-7">
+                            <div class="card">
+                                <div
+                                    class="rounded-top text-white d-flex flex-row"
+                                    style="background-color: rgb(101, 193, 251);">
+                                    <div class="ms-4 d-flex flex-column"
+                                        style="width: 150px; padding-top: 1%;">
+                                        <img src="../img/user.png"
+                                            alt="Generic placeholder image"
+                                            class="img-fluid img-thumbnail mt-4 mb-2"
+                                            style="width: 150px; z-index: 1;">
+                                        <button type="button"
+                                            class="btn btn-outline-dark"
+                                            data-mdb-ripple-color="dark"
+                                            style="z-index: 1; margin-bottom: 20px;">
+                                            Edit profile
+                                        </button>
+                                    </div>
+                                    <div class="ms-3" style="margin-top: 130px;">
+                                        <h5>Usuario</h5>
+                                        <p>Foz do Iguacu</p>
+                                    </div>
+                                </div>
+                                <div class="p-4 text-black"
+                                    style="background-color: #f8f9fa;">
+                                    <div class="row col-md-12">
+                                        <div class="col-md-6">
+                                            <div
+                                                class="d-flex justify-content-start py-1"
+                                                style="padding-right: 3%;">
+                                                <div style="text-align: left;">
+                                                    <h5> <b>Dados Pessoais</b>
+                                                    </h5>
+                                                    <div class>
+                                                        <p> <b>Nome:</b>
+                                                            Username</p>
+                                                    </div>
+                                                    <div class>
+                                                        <p> <b>CPF:</b>
+                                                            123.456.789-10</p>
+                                                    </div>
+                                                    <div class>
+                                                        <p> <b>Email:</b>
+                                                            email@email.com</p>
+                                                    </div>
+                                                    <div class>
+                                                        <p> <b>Sexo</b>
+                                                            123.456.789-10</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div
+                                                class="d-flex justify-content-start py-1"
+                                                style="padding-right: 3%;">
+                                                <div style="text-align: left;">
+                                                    <br>
+                                                    <div class>
+                                                        <p> <b>Pais:</b> Brasil</p>
+                                                    </div>
+                                                    <div class>
+                                                        <p> <b>Estado:</b>
+                                                            Parana</p>
+                                                    </div>
+                                                    <div class>
+                                                        <p> <b>Cidade:</b> Foz
+                                                            do Iguacu</p>
+                                                    </div>
+                                                    <div class>
+                                                        <button
+                                                            class="btn btn-primary">Trocar
+                                                            Senha</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body p-4 text-black">
+                                    <div class="mb-5">
+                                        <h5 class="lead fw-normal mb-1"><b>Suas reservas</b></h5>
+                                    </div>
+                                    <div class="row col-md-12">
+                                        <div class="col-md-1">
+                                            <div class="">
+                                                <img src="/ProjetoMensal/img/single.jpg" style="width: 130px; height: 70px;">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-11">
+                                            <div class="">
+                                                <p>Single</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </body>
+    </html>

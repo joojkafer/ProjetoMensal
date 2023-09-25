@@ -3,7 +3,7 @@ html, body {
 }
 
 body {
-    background: url('../img/bgimg.jpg');
+    background: url('/ProjetoMensal/img/bgimg.jpg');
     background-position: center;
     background-repeat: no-repeat; 
     background-attachment: fixed; 
