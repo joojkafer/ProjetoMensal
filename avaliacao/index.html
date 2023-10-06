@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <link rel="stylesheet" type="text/css" href="avaliacao.css">
     <script src="/ProjetoMensal/js/include.js"></script>
@@ -24,6 +24,19 @@
         <p class="current_rating">1 de 5</p>
       </div>
     </div>
+    
+    <div class="comment-box">
+      <h2>Deixe um Comentario</h2>
+      <form>
+        <label for="comment">Comentario:</label>
+        <textarea id="comment" name="comment" rows="4"></textarea>
+    
+        <button type="submit">Enviar Avaliacao</button>
+      </form>
+    </div>
+    
+
+
     <script>
       const allStars = document.querySelectorAll('.star');
       let current_rating = document.querySelector('.current_rating');

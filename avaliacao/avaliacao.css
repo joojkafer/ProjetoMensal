@@ -53,3 +53,43 @@
       transform: translateY(0px);
     }
   }
+  .comment-box {
+  background-color: rgb(101, 193, 251);
+  padding: 1.4rem 2.5rem;
+  margin: 2rem;
+  border-radius: 0.4rem;
+  text-align: center;
+  animation: slide-up 1s ease;
+  width: 400px; 
+}
+
+.comment-box h2 {
+  color: rgb(255, 255, 255);
+  animation: scale-up 1s ease;
+  text-align: center;
+}
+
+.comment-box textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.3rem;
+  border: none;
+  border-radius: 0.2rem;
+  background-color: antiquewhite;
+  color: #000000;
+}
+
+.comment-box button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: unset;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  color: #000000;
+}
+
+.comment-box button:hover {
+  background-color: #c5bc06;
+  color: #f2f2f2;
+}
