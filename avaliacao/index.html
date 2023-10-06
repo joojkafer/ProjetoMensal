@@ -27,7 +27,7 @@
     
     <div class="comment-box">
       <h2>Deixe um Comentario</h2>
-      <form>
+      <form id="comment-form">
         <label for="comment">Comentario:</label>
         <textarea id="comment" name="comment" rows="4"></textarea>
     
@@ -35,6 +35,16 @@
       </form>
     </div>
     
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        const commentForm = document.getElementById("comment-form");
+    
+        commentForm.addEventListener("submit", function(event) {
+          event.preventDefault(); 
+          alert("Obrigado pela avaliação!");
+        });
+      });
+    </script>
 
 
     <script>
