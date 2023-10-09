@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <script src="/ProjetoMensal/js/include.js"></script>
         <title>CheckInn - Meu Perfil</title>
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
@@ -14,58 +15,11 @@
         <link rel="stylesheet" type="text/css" href="perfil.css">
     </head>
 
-    <body style="background: url('/ProjetoMensal/img/bgimg.jpg');">
-
+    <body>
         <div class="content">
-            <nav class="navbar fixed-top"
-                style="padding: 1.2%; background-color: rgb(101, 193, 251);">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="/ProjetoMensal/index.html"> <img
-                            src="/ProjetoMensal/img/logo.png"
-                            style="width: 150px; height: 75px;"> </a>
-                    <button class="navbar-toggler" type="button"
-                        data-bs-toggle="offcanvas"
-                        data-bs-target="#offcanvasNavbar"
-                        aria-controls="offcanvasNavbar"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="offcanvas offcanvas-end" tabindex="-1"
-                        id="offcanvasNavbar"
-                        aria-labelledby="offcanvasNavbarLabel">
-                        <div class="offcanvas-header">
-                            <img src="/ProjetoMensal/img/logo.png"
-                                style="width: 140px; height: 75px;">
-                            <button type="button" class="btn-close"
-                                data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                        </div>
-                        <div class="offcanvas-body">
-                            <ul
-                                class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                                <li class="nav-item">
-                                    <li><a class="dropdown-item"
-                                            href="perfil/perfil.html">Meu perfil</a></li>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#"
-                                        role="button" data-bs-toggle="dropdown"
-                                        aria-expanded="false">
-                                        Mais
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item"
-                                                href="/ProjetoMensal/login/login.html">Estoque</a></li>
-                                        <li><a class="dropdown-item"
-                                                href="/ProjetoMensal/login/registrar.html">Quartos</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </nav>
+            <div w3-include-html="../navbar.html"></div>
 
-            <section class="h-100 gradient-custom-2" style="margin-top: 8%;">
+            <section class="gradient-custom-2" style="margin-top: 8%;">
                 <div class="container py-5 h-100">
                     <div
                         class="row d-flex justify-content-center align-items-center h-100">
@@ -95,18 +49,18 @@
                                 <div class="p-4 text-black"
                                     style="background-color: #f8f9fa;">
                                     <div class="row col-md-12">
+                                        <h5> <b>Dados Pessoais</b>
+                                        </h5>
                                         <div class="col-md-6">
                                             <div
                                                 class="d-flex justify-content-start py-1"
                                                 style="padding-right: 3%;">
                                                 <div style="text-align: left;">
-                                                    <h5> <b>Dados Pessoais</b>
-                                                    </h5>
-                                                    <div class>
+                                                    <div>
                                                         <p> <b>Nome:</b>
                                                             Username</p>
                                                     </div>
-                                                    <div class>
+                                                    <div>
                                                         <p> <b>CPF:</b>
                                                             123.456.789-10</p>
                                                     </div>
@@ -114,7 +68,7 @@
                                                         <p> <b>Email:</b>
                                                             email@email.com</p>
                                                     </div>
-                                                    <div class>
+                                                    <div>
                                                         <p> <b>Sexo:</b>
                                                             Masculino</p>
                                                     </div>
@@ -149,13 +103,13 @@
                                     </div>
                                 </div>
                                 <div class="card-body p-4 text-black">
-                                    <div class="mb-5">
+                                    <div class="mb-3">
                                         <h5 class="lead fw-normal mb-1"><b>Suas reservas</b></h5>
                                     </div>
                                     <div class="row col-md-12">
                                         <div class="col-md-3">
                                             <div class="">
-                                                <img src="/ProjetoMensal/img/single.jpg" style="width: 100%; height: 80px;">
+                                                <img src="/ProjetoMensal/img/single.jpg" style="width: 100%;">
                                             </div>
                                         </div>
                                         <div class="col-md-9">
@@ -164,6 +118,50 @@
                                             </div>
                                             <div>
                                                 <p class="txtreserva">R$ 240,00</p>
+                                            </div>
+                                            <div>
+                                                <p class="txtreserva">10/12/2022 - 11/12/2022</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="p-4 text-black" style="background-color: #f8f9fa;">
+                                    <div class="mb-3">
+                                        <h5 class="lead fw-normal mb-1"><b>Suas avaliacoes</b></h5>
+                                    </div>
+
+                                    <div>
+                                        <div class="row col-md-12">
+                                            <div class="col-md-3">
+                                                <div class="">
+                                                    <img src="/ProjetoMensal/img/single.jpg" class="imgavaliacao">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-9">
+                                                <div>
+                                                    <p class="txtreserva">Single</p>
+                                                </div>
+                                                <div>
+                                                    <p class="txtreserva">Muito foda!!!!</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div>
+                                        <div class="row col-md-12">
+                                            <div class="col-md-3">
+                                                <div>
+                                                    <img src="/ProjetoMensal/img/double.jpg" class="imgavaliacao">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-9">
+                                                <div>
+                                                    <p class="txtreserva">Double</p>
+                                                </div>
+                                                <div>
+                                                    <p class="txtreserva">Achei meio paia!!!!</p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -174,4 +172,7 @@
                 </section>
             </div>
         </body>
+        <script> 
+            includeHTML(); 
+        </script>
     </html>

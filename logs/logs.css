@@ -1,13 +1,28 @@
+html, body {
+    overflow-x: hidden;
+}
+
 body{
     background-image: url('../img/bgimg.jpg'); 
+    background-position: center;
     background-repeat: no-repeat; 
     background-attachment: fixed; 
-    background-size: 100% 100%;
+    background-size: cover;
+    backdrop-filter: blur(8px);
+    justify-content: center;
+    font-family: 'Monsterrat', sans-serif;
+    position: relative;
+    padding: 2rem 0;
 }
 
 h2{
     text-align: center;
     padding-bottom: 4%;
+}
+
+.logo{
+    width: 280px;
+    height: 140px;
 }
 
 .hrefpadrao{
@@ -19,13 +34,13 @@ h2{
 }
 
 .login{
-    border-radius: 10%;
+    border-radius: 1%;
 	background-color: rgb(248, 247, 247);
     padding-top: 3%;
     padding-bottom: 3%;
     padding-left: 3%;
     padding-right: 3%;
-    margin-top: 15%;
+    margin-top: 1%;
 }
 
 .btnpad{
