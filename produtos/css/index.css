@@ -8,16 +8,16 @@ body {
     background: #fff;
     padding: 20px 25px;
     margin: 30px 0;
-    border-radius: 3px;
-    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,.27);
 }
 .table-title {        
     padding-bottom: 15px;
-    background: #435d7d;
-    color: #fff;
+    background: #373636;
+    color: #15aaff;
     padding: 16px 30px;
     margin: -20px -25px 10px;
-    border-radius: 3px 3px 0 0;
+    border-radius: 10px;
 }
 .table-title h2 {
     margin: 5px 0 0;
@@ -32,7 +32,7 @@ body {
     font-size: 13px;
     border: none;
     min-width: 50px;
-    border-radius: 2px;
+    border-radius: 10px;
     border: none;
     outline: none !important;
     margin-left: 10px;
